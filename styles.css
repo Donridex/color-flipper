@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: burlywood;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+button{
+    color: red;
+    padding: 5px;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 10px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+}
